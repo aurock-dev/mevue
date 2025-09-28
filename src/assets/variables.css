@@ -1,0 +1,14 @@
+:root {
+    --clr-white: #FFFFFF;
+    --clr-black: #000000;
+
+
+    --shadow-color: rgba(53, 53, 53, 0.641);
+    --counter-shadow: 3px 3px 6px 0px var(--shadow-color);
+    --button-shadow: 0px 0px 5px 0px var(--shadow-color);
+
+    --font: Verdana, Arial, Helvetica, sans-serif;
+
+    --header-height: 44px;
+    --footer-height: 44px;
+}
