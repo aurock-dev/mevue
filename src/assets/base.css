@@ -8,3 +8,47 @@ body,
 body {
     font-family: var(--font);
 }
+
+.greyGradient{
+    background: var(--gradient-white-grey);
+}
+
+.yellowGradient{
+    background: var(--gradient-white-yellow);
+}
+
+.orangeGradient{
+    background: var(--gradient-white-orange);
+}
+
+.blueGradient{
+    background: var(--gradient-white-blue);
+}
+
+.greyGradientText{
+    background: var(--gradient-grey-black);
+    background-clip: text;
+    color: transparent;
+    width: max-content;
+}
+
+.yellowGradientText{
+    background: var(--gradient-yellow-black);
+    background-clip: text;
+    color: transparent;
+    width: max-content;
+}
+
+.orangeGradientText{
+    background: var(--gradient-orange-black);
+    background-clip: text;
+    color: transparent;
+    width: max-content;
+}
+
+.blueGradientText{
+    background: var(--gradient-blue-black);
+    background-clip: text;
+    color: transparent;
+    width: max-content;
+}
