@@ -1,4 +1,5 @@
 <script setup>
+import { Construction } from 'lucide-vue-next';
 import { onMounted } from 'vue';
 
 function openLink(url) {
@@ -6,8 +7,6 @@ function openLink(url) {
 }
 
 onMounted(async () => {
-    // const response = await fetch('https://guesstify.aurock.dev/', { method: 'HEAD' })
-    // console.log(response)
 })
 </script>
 
@@ -15,24 +14,26 @@ onMounted(async () => {
     <main>
         <h2>Bonjour !</h2>
         <div class="desc">
-            <span>I'm Aurock (or Jeremy), a french FrontEnd Dev with a strong curiosity for web game, incrementals, IDLE and all this sort of entertainment.</span>
-            <span>When I'm not on this kind of thing, I work for <a href="https://ct2mc.com" target="_blank">CT2MC</a> as frontend dev too.</span>
+            <span>I'm Aurock (or Jeremy), a french Frontend Dev with a strong curiosity for web game, incrementals, IDLE and all this sort of entertainment.</span>
+            <span>When I'm not on this kind of thing, I work on HMI for <a href="https://ct2mc.com" target="_blank">CT2MC</a>.</span>
         </div>
         <h2>Projects :</h2>
         <div class="cardWrapper">
+            <p>Supposedly in development: </p>
             <div class="card yellowGradient" @click="openLink('https://dungeoned.aurock.dev')">
-                <h3 class="yellowGradientText">Dungeoned</h3>
-                <div>Match-3-ish web game. Copy old mobile game DungeonRaid main gameplay and add a real roguelike/lite flavor.</div>
+                <h3 class="yellowGradientText"><Construction /> Dungeoned</h3>
+                <div>Match-3-ish web game. Inspired by old mobile game DungeonRaid main gameplay, with added real roguelike/lite flavor.</div>
                 <div class="tagsWrapper"><span>VueJS</span><span>Web</span></div>
             </div>
+            <p>With a "kind-of usable" version: </p>
             <div class="card greenGradient" @click="openLink('https://guesstify.aurock.dev')">
                 <h3 class="greenGradientText">Guesstify</h3>
-                <div>Connect to Spotify, choose a playlist and try to guess album image from a zoomed piece.</div>
+                <div>Connect to Spotify, choose a playlist and try to guess album image from a zoomed-in piece.</div>
                 <div class="tagsWrapper"><span>VueJS</span><span>Web</span></div>
             </div>
             <div class="card blueGradient" @click="openLink('https://colorle.aurock.dev')">
                 <h3 class="blueGradientText">Colorle</h3>
-                <div>Everyday a new color, find RGB code to win.</div>
+                <div>Every day a new color, find RGB code to win.</div>
                 <div class="tagsWrapper"><span>HTML/CSS</span><span>JS</span><span>Web</span></div>
             </div>
             <div class="card orangeGradient" @click="openLink('https://cc.aurock.dev')">
@@ -40,6 +41,7 @@ onMounted(async () => {
                 <div>Simple mobile oriented counter, with emphasis on color and gradient.</div>
                 <div class="tagsWrapper"><span>VueJS</span><span>Capacitor</span><span>Mobile</span></div>
             </div>
+            <p>Dead and gone: </p>
             <div class="card greyGradient" @click="openLink('https://github.com/aurock-dev/cflif')">
                 <h3 class="greyGradientText">Cflif</h3>
                 <div>An attempt to recreate Flyff but on an incremental game. Currently deadge.</div>
