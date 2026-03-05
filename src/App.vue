@@ -22,7 +22,7 @@ onMounted(async () => {
         <div class="cardWrapper">
             <div class="card yellowGradient" @click="openLink('https://dungeoned.aurock.dev')">
                 <h3 class="yellowGradientText">Dungeoned</h3>
-                <div>Connect to Spotify, choose a playlist and try to guess album image from a zoomed piece.</div>
+                <div>Match-3-ish web game. Copy old mobile game DungeonRaid main gameplay and add a real roguelike/lite flavor.</div>
                 <div class="tagsWrapper"><span>VueJS</span><span>Web</span></div>
             </div>
             <div class="card greenGradient" @click="openLink('https://guesstify.aurock.dev')">
