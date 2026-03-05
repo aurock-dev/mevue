@@ -30,9 +30,9 @@ onMounted(async () => {
                 <div>Everyday a new color, find RGB code to win.</div>
                 <div class="tagsWrapper"><span>HTML/CSS</span><span>JS</span><span>Web</span></div>
             </div>
-            <div class="card orangeGradient noClick">
+            <div class="card orangeGradient" @click="openLink('https://cc.aurock.dev')">
                 <h3 class="orangeGradientText">Colorful Counter</h3>
-                <div>Simple mobile counter, with emphasis on color and gradient.</div>
+                <div>Simple mobile oriented counter, with emphasis on color and gradient.</div>
                 <div class="tagsWrapper"><span>VueJS</span><span>Capacitor</span><span>Mobile</span></div>
             </div>
             <div class="card greyGradient" @click="openLink('https://github.com/aurock-dev/cflif')">
