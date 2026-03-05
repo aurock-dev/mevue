@@ -23,14 +23,18 @@
     --orange-2: rgba(225, 131, 77, 1);
     --blue: rgba(11, 126, 214, 1);
     --blue-2: rgba(68, 156, 224, 1);
+    --green: rgb(118, 201, 24);
+    --green-2: rgb(140, 212, 57);
 
     --gradient-white-grey: linear-gradient(90deg, var(--white) 0%, var(--white) 60%, var(--grey-2) 90%, var(--grey) 100%);
     --gradient-white-yellow: linear-gradient(90deg, var(--white) 0%, var(--white) 60%, var(--yellow-2) 90%, var(--yellow) 100%);
     --gradient-white-orange: linear-gradient(90deg, var(--white) 0%, var(--white) 60%, var(--orange-2) 90%, var(--orange) 100%);
     --gradient-white-blue: linear-gradient(90deg, var(--white) 0%, var(--white) 60%, var(--blue-2) 90%, var(--blue) 100%);
+    --gradient-white-green: linear-gradient(90deg, var(--white) 0%, var(--white) 60%, var(--green-2) 90%, var(--green) 100%);
     
     --gradient-grey-black: linear-gradient(90deg, var(--grey-2) 0%, var(--grey) 10%, var(--black) 40%, var(--black) 100%);
     --gradient-yellow-black: linear-gradient(90deg, var(--yellow-2) 0%, var(--yellow) 10%, var(--black) 40%, var(--black) 100%);
     --gradient-orange-black: linear-gradient(90deg, var(--orange-2) 0%, var(--orange) 10%, var(--black) 40%, var(--black) 100%);
     --gradient-blue-black: linear-gradient(90deg, var(--blue-2) 0%, var(--blue) 10%, var(--black) 40%, var(--black) 100%);
+    --gradient-green-black: linear-gradient(90deg, var(--green-2) 0%, var(--green) 10%, var(--black) 40%, var(--black) 100%);
 }

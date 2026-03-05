@@ -25,6 +25,10 @@ body {
     background: var(--gradient-white-blue);
 }
 
+.greenGradient{
+    background: var(--gradient-white-green);
+}
+
 .greyGradientText{
     background: var(--gradient-grey-black);
     background-clip: text;
@@ -48,6 +52,13 @@ body {
 
 .blueGradientText{
     background: var(--gradient-blue-black);
+    background-clip: text;
+    color: transparent;
+    width: max-content;
+}
+
+.greenGradientText{
+    background: var(--gradient-green-black);
     background-clip: text;
     color: transparent;
     width: max-content;
