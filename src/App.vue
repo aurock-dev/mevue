@@ -1,5 +1,4 @@
 <script setup>
-import { Construction } from 'lucide-vue-next';
 import { onMounted } from 'vue';
 
 function openLink(url) {
