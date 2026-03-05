@@ -20,8 +20,13 @@ onMounted(async () => {
         </div>
         <h2>Projects :</h2>
         <div class="cardWrapper">
-            <div class="card yellowGradient" @click="openLink('https://guesstify.aurock.dev')">
-                <h3 class="yellowGradientText">Guesstify</h3>
+            <div class="card yellowGradient" @click="openLink('https://dungeoned.aurock.dev')">
+                <h3 class="yellowGradientText">Dungeoned</h3>
+                <div>Connect to Spotify, choose a playlist and try to guess album image from a zoomed piece.</div>
+                <div class="tagsWrapper"><span>VueJS</span><span>Web</span></div>
+            </div>
+            <div class="card greenGradient" @click="openLink('https://guesstify.aurock.dev')">
+                <h3 class="greenGradientText">Guesstify</h3>
                 <div>Connect to Spotify, choose a playlist and try to guess album image from a zoomed piece.</div>
                 <div class="tagsWrapper"><span>VueJS</span><span>Web</span></div>
             </div>
